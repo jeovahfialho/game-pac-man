@@ -1,0 +1,45 @@
+Obs.:
+
+Pac-Man simplificado com IA (Inteligência Artificial).
+
+Testado no GCC GNU e Windows. 
+
+ATENÇÃO: Tem que mudar o valor do # define TIME (10 para Windows e 1 pro Linux).
+
+Mande sugestoes de Jogos e Programas no meu e-mail. =D
+
+Espero que gostem!
+
+Espero também e-mails elogiando, sugerindo e criticando o programinha! =D
+
+
+/*
+
+Autor: Jeovah Fialho
+Cursando Bacharelado em Ciencia da Computacao - Universidade de Brasilia
+E-mail: jeovahfialho@gmail.com
+
+Versao do compilador: gcc (Ubuntu 4.3.2-1ubuntu11) 4.3.2
+
+Programa testado no GCC GNU e no Windows. Padrao ANSI
+
+Descricao do Problema: Dada uma planta baixa inicial (composta por uma parte superior, uma parte
+inferior e um corredor entre as duas partes), que sera armazenada em uma matriz 23x75 do
+tipo char, construir um programa que permita ao usuario dividir a planta inicial em
+Partes inserindo as divisorias dos Partes (das partes superior e inferior) e as posicoes
+das portas de cada comodo. Alem disso, o programa deve solicitar ao usuario o numero de
+frutas as serem dispostas em cada comodo, bem como as posicoees (linha e coluna) de cada
+fruta inserida. O jogo consiste em um elemento, denominado Come-Come (representado
+pelo caracter 'C'), que deve se deslocar de uma posicao inicial (especificada abaixo),
+percorrendo o corredor central da planta e entrando em cada comodo em busca das frutas
+inseridas. O Come-Come deve se deslocar no corredor, da esquerda para a direita, entrando
+sempre na porta mais proxima (seja para um comodo superior ou inferior). Alem disso, o
+Come-Come deve iniciar a busca sempre pela fruta mais proxima dentro do comodo, e
+assim por diante, ate que todas as frutas tenham sido comidas. Caso nco hajam frutas
+dentro do comodo o Come-Come deve apenas entrar uma posicao dentro do comodo e
+voltar ao corredor. Apos percorrer todos os Partes o Come-Come deve parar na saida
+(posicao no final do corredor, oposta a posicao inicial de largada). Deve ser mostrado ao
+usuario o numero total de passos que o Come-Come percorreu ate parar na saida. Dentro de
+um comodo o Come-Come deve se locomover primeiro na horizontal, e depois na vertical. 
+
+*/
